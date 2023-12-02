@@ -2,6 +2,11 @@
 {
     public class Order
     {
+        public Order(string userName)
+        {
+            UserName = userName;
+        }
+
         public string UserName { get; set; }
         public List<OrderItem> Items { get; set; }
         public decimal TotalPrice { 

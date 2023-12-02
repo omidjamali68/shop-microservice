@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
+    "D:\\Dev\\projects\\microservice\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
   },
   "projects": {
-    "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
+    "D:\\Dev\\projects\\microservice\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectUniqueName": "D:\\Dev\\projects\\microservice\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
         "projectName": "Catalog.Api",
-        "projectPath": "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
-        "packagesPath": "C:\\Users\\Omid Jamali\\.nuget\\packages\\",
-        "outputPath": "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\obj\\",
+        "projectPath": "D:\\Dev\\projects\\microservice\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "packagesPath": "C:\\Users\\ojama\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\projects\\microservice\\shop-microservice\\Services\\Catalog\\Catalog.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Omid Jamali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ojama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
