@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\projects\\microservice\\aspnet-microservices\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
+    "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\projects\\microservice\\aspnet-microservices\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
+    "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\projects\\microservice\\aspnet-microservices\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectUniqueName": "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
         "projectName": "Catalog.Api",
-        "projectPath": "D:\\Dev\\projects\\microservice\\aspnet-microservices\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
-        "packagesPath": "C:\\Users\\ojama\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\projects\\microservice\\aspnet-microservices\\Services\\Catalog\\Catalog.Api\\obj\\",
+        "projectPath": "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "packagesPath": "C:\\Users\\Omid Jamali\\.nuget\\packages\\",
+        "outputPath": "D:\\Jamali\\Dev\\shop-microservice\\Services\\Catalog\\Catalog.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ojama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Omid Jamali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
