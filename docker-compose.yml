@@ -2,28 +2,22 @@ version: '3.4'
 
 services:
   catalogdb:
-    image: mongo
-    container_name: catalogdb
-    restart: always
-    volumes:
-      - mongo_data:/data/db 
-    ports:
-      - "27017:27017"
+    image: mongo    
 
+  basketdb:
+    image: redis:alpine
 
   catalog.api:
     image: ${DOCKER_REGISTRY-}catalogapi
     build:
       context: .
-      dockerfile: Services/Catalog/Catalog.Api/Dockerfile
-    container_name: catalog.api
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - "DatabaseSetting:ConnectionString=mongodb://catalogdb:27017" 
-    depends_on:
-      - catalogdb
-    ports:
-      - "8000:80"
+      dockerfile: Services/Catalog/Catalog.Api/Dockerfile    
+
+  basket.api:
+    image: ${DOCKER_REGISTRY-}basketapi
+    build:
+      context: .
+      dockerfile: Services/Basket/Basket.Api/Dockerfile
 
 volumes:
   mongo_data:

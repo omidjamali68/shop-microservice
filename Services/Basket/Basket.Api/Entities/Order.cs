@@ -2,16 +2,25 @@
 {
     public class Order
     {
+        public Order(string userName)
+        {
+            UserName = userName;
+        }
+
         public string UserName { get; set; }
         public List<OrderItem> Items { get; set; }
         public decimal TotalPrice { 
             get 
             { 
                 decimal total = 0;
-                foreach(var item in  Items)
+                if (Items != null && Items.Any())
                 {
-                    total+= item.Price * item.Quantity;
+                    foreach (var item in Items)
+                    {
+                        total += item.Price * item.Quantity;
+                    }
                 }
+                
                 return total;
             } 
         }
