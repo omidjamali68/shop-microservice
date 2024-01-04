@@ -1,5 +1,4 @@
 ﻿using Basket.Api.Entities;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
 
